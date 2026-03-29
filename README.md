@@ -40,7 +40,7 @@ make flash
 ## Read EEPROM
 Once the PSC is grabbed, you can read the microcontroller EEPROM using this command:
 ```
-make flash
+make read
 ```
 
 Open **eeprom.hex** with a text editor, PSC is present here:
