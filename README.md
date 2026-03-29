@@ -17,41 +17,30 @@ The maximum input clock frequency will be around 35KHz, not the 50KHz specified 
 Real scheme used from https://github.com/sonovice/sle4442.
 
 # Programming instruction
-For Windows, download WinAVR from https://sourceforge.net/projects/winavr/  
-For Linux, install the required files using this command:
 ```
-sudo apt-get install gcc-avr avr-libc avrdude
-```
-
-## Compile the code
-Put all the files (**main.c memory.h sle4442.h**) in one folder. Execute this command:
-```
-avr-gcc -Wall -g -Os -mmcu=atmega8 -std=gnu99 -o main.bin main.c
+brew tap osx-cross/avr
+brew install avr-gcc avrdude
 ```
 
-## Generate .hex file
-```
-avr-objcopy -j .text -j .data -O ihex main.bin main.hex
-```
-
-<br/>The following commands are for USBasp programmer. For other programmers, look at the avrdude documentation.  
+The following commands are for USBasp programmer. For other programmers, look at the avrdude documentation.  
 
 ## Writing fuses
 Execute those commands only one time, no need to write fuses every time you burn the flash.
 ```
-avrdude -p atmega8 -c usbasp -U lfuse:w:0xC4:m
-avrdude -p atmega8 -c usbasp -U hfuse:w:0xD9:m
+make fuses
 ```
 
 ## Burning
+Go in `code` folder. Execute this command:
+
 ```
-avrdude -p atmega8 -c usbasp -U flash:w:main.hex:i -F -P usb
+make flash
 ```
 
 ## Read EEPROM
 Once the PSC is grabbed, you can read the microcontroller EEPROM using this command:
 ```
-avrdude -p atmega8 -c usbasp -U eeprom:r:eeprom.hex:i
+make flash
 ```
 
 Open **eeprom.hex** with a text editor, PSC is present here:

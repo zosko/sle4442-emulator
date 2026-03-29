@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SLE4442-Emulator.kicad_pro",
+    "filename": "hardware.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -631,18 +631,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "SLE4442-Emulator.kicad_sch",
-        "name": "SLE4442-Emulator",
+        "filename": "hardware.kicad_sch",
+        "name": "hardware",
         "uuid": "79b7f5d6-5330-4d70-822f-eb7b03666395"
       }
     ],
-    "used_designators": "#PWR9",
+    "used_designators": "#PWR10,Y1",
     "variants": []
   },
   "sheets": [
     [
       "79b7f5d6-5330-4d70-822f-eb7b03666395",
-      "SLE4442-Emulator"
+      "hardware"
     ]
   ],
   "text_variables": {},

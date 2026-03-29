@@ -709,6 +709,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Resonator"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resonator"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Three pin ceramic resonator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ceramic resonator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Filter* Resonator*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resonator_0_1"
+				(rectangle
+					(start -3.429 -2.413)
+					(end -1.397 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.429 -3.175)
+					(end -1.397 -3.429)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.413 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -2.413) (xy -2.413 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.032)
+					(end 1.016 -2.032)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.397 -2.413)
+					(end 3.429 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.397 -3.175)
+					(end 3.429 -3.429)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.27) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 0) (xy 2.413 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.413 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -3.302) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resonator_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega8A-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1787,10 +2104,6 @@
 		(uuid "0b4bbafc-74fe-4522-a264-57336fd988fe")
 	)
 	(no_connect
-		(at 132.08 64.77)
-		(uuid "136d2f10-206f-4b7f-b933-8f6762ab77e1")
-	)
-	(no_connect
 		(at 132.08 77.47)
 		(uuid "1f2ed852-5258-4e7d-aae8-2af49bafbb8b")
 	)
@@ -1809,10 +2122,6 @@
 	(no_connect
 		(at 162.56 107.95)
 		(uuid "345e6fde-a293-483c-be63-143986c7caef")
-	)
-	(no_connect
-		(at 132.08 59.69)
-		(uuid "5b896236-fedb-4f60-a40f-3962d278a0cd")
 	)
 	(no_connect
 		(at 162.56 90.17)
@@ -1848,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abdc7a6-6041-4b4a-b12e-4754b473832e")
+	)
+	(wire
+		(pts
 			(xy 147.32 120.65) (xy 147.32 118.11)
 		)
 		(stroke
@@ -1855,6 +2174,16 @@
 			(type default)
 		)
 		(uuid "72fc7150-f93c-4ff4-b573-67c1ddf8910b")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c594428-d8cf-4a3c-afc6-4d3319121721")
 	)
 	(wire
 		(pts
@@ -1885,6 +2214,36 @@
 			(type default)
 		)
 		(uuid "a5c6866b-d85b-4713-84c5-134671d4ac86")
+	)
+	(wire
+		(pts
+			(xy 115.57 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db01e90b-b51d-4b59-a4d4-4d30b652add3")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa7da4d-beeb-4530-9f8d-647a705fd30d")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaec95de-8054-4b03-8802-36638bf9c6df")
 	)
 	(wire
 		(pts
@@ -2310,7 +2669,7 @@
 			(uuid "f46d37e3-226d-4a97-bb0d-8ffb41a5a584")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "U1")
 					(unit 1)
@@ -2388,7 +2747,7 @@
 			(uuid "d8457c6d-bdbf-493c-b5a2-3e1107fd7b9e")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR04")
 					(unit 1)
@@ -2467,7 +2826,7 @@
 			(uuid "25196699-72cf-4fdb-b961-4d13144be6cd")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#FLG01")
 					(unit 1)
@@ -2564,7 +2923,7 @@
 			(uuid "40a2c55e-8cca-4962-84bf-af03313d1488")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "J1")
 					(unit 1)
@@ -2661,7 +3020,7 @@
 			(uuid "cbfc0e35-8219-4faa-ae68-d0f9a73400da")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "J2")
 					(unit 1)
@@ -2740,7 +3099,7 @@
 			(uuid "c2a228f5-ff7f-47b8-addd-134d022e3738")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#FLG02")
 					(unit 1)
@@ -2818,7 +3177,7 @@
 			(uuid "da394c5c-fba2-47fe-8ea7-f2f5e5c95e80")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR02")
 					(unit 1)
@@ -2912,9 +3271,87 @@
 			(uuid "90ec40fe-36e7-4a65-8e69-e094467c7b00")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd5e731-9054-4070-9f85-5f96c0543fec")
+		(property "Reference" "#PWR010"
+			(at 109.22 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48b4f7eb-d4ea-4bd8-810a-69257df6ad35")
+		)
+		(instances
+			(project "hardware"
+				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2990,7 +3427,7 @@
 			(uuid "f02fcd9a-8e5f-4154-8dbe-2e3c3812ce7a")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR03")
 					(unit 1)
@@ -3068,7 +3505,7 @@
 			(uuid "044ff33f-a763-4dc2-9c43-e7ee089a8b38")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR08")
 					(unit 1)
@@ -3146,9 +3583,94 @@
 			(uuid "1d6ce556-364b-48d4-aabb-546da6b704f9")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Resonator")
+		(at 115.57 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84c6db5-ec96-4dd7-96fd-61631e727a2c")
+		(property "Reference" "Y1"
+			(at 119.38 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Mhz"
+			(at 119.38 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
+			(at 115.57 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three pin ceramic resonator"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c2eb7ac-029d-4a0a-afc5-5fd532ddb992")
+		)
+		(pin "3"
+			(uuid "fe8b57f1-b46d-4c4c-b8b5-804d59195d49")
+		)
+		(pin "2"
+			(uuid "2c98bbab-758b-4b70-a4ba-bd441e002c52")
+		)
+		(instances
+			(project "hardware"
+				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3746,7 @@
 			(uuid "e10bb0af-01c0-47c7-a1ea-7e9effb55f8f")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR06")
 					(unit 1)
@@ -3303,7 +3825,7 @@
 			(uuid "0f552cfa-dfa1-4230-b864-9bf05bddba20")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR09")
 					(unit 1)
@@ -3381,7 +3903,7 @@
 			(uuid "24261078-0200-4139-9305-312119774de4")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR01")
 					(unit 1)
@@ -3459,7 +3981,7 @@
 			(uuid "9f7ec1f6-1cc4-43cd-8479-986e7d34dede")
 		)
 		(instances
-			(project "SLE4442-Emulator"
+			(project "hardware"
 				(path "/79b7f5d6-5330-4d70-822f-eb7b03666395"
 					(reference "#PWR07")
 					(unit 1)
