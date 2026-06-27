@@ -2572,6 +2572,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C16190"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ATMEGA8A-AU"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "24"
 			(uuid "6cc23906-0e2a-471a-ba4b-46222e12901e")
 		)
@@ -3648,6 +3670,28 @@
 			)
 		)
 		(property "Description" "Three pin ceramic resonator"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C32180"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CSTCE16M0V53-R0"
 			(at 115.57 60.96 0)
 			(hide yes)
 			(show_name no)
