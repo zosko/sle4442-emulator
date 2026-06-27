@@ -45,3 +45,21 @@ make read
 
 Open **eeprom.hex** with a text editor, PSC is present here:
 ![](https://i.imgur.com/WLMl7ar.png)
+
+## Sponsorship
+
+![PCBWay_logo](pcbway_logo.png)
+
+**This project is proudly sponsored by [PCBWay](https://pcbway.com).**
+
+PCBWay specializes in manufacturing high-quality printed circuit boards (PCBs), making them accessible and affordable for both hobbyists and professionals.
+
+Their range of services includes:
+
+- PCB prototyping
+- Assembly services
+- Instant order quotations
+- Expert verification processes
+- A user-friendly, hassle-free ordering system
+
+I'm sincerely grateful to PCBWay for their generous support in making this project possible.
